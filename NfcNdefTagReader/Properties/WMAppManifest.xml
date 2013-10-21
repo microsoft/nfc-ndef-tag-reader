@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
+  <DefaultLanguage xmlns="" code="en-US" />
+  <App xmlns="" ProductID="{2cc14932-8f7a-426f-8997-767e860b1410}" Title="NFC NDEF Tag Reader" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Nokia Developer" Description="A Nokia example app demonstrating the use of the Proximity API for reading NFC Data Exchange Format (NDEF) compliant tags." Publisher="Nokia Developer" PublisherID="{2d25179e-0aba-4306-b672-4534faa427e7}">
+    <IconPath IsRelative="true" IsResource="false">Assets\Tiles\NfcNdefTagReader-small.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_SENSORS" />
+      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
+      <Capability Name="ID_CAP_PROXIMITY" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="NfcNdefTagReaderToken" TaskName="_default">
+        <TemplateFlip>
+          <SmallImageURI IsRelative="true" IsResource="false">Assets\Tiles\NfcNdefTagReader-small.png</SmallImageURI>
+          <Count>0</Count>
+          <BackgroundImageURI IsRelative="true" IsResource="false">Assets\Tiles\NfcNdefTagReader-medium.png</BackgroundImageURI>
+          <Title>NFC NDEF Tag Reader</Title>
+          <BackContent>
+          </BackContent>
+          <BackBackgroundImageURI>
+          </BackBackgroundImageURI>
+          <BackTitle>
+          </BackTitle>
+          <LargeBackgroundImageURI IsRelative="true" IsResource="false">Assets\Tiles\NfcNdefTagReader-large.png</LargeBackgroundImageURI>
+          <LargeBackContent>
+          </LargeBackContent>
+          <LargeBackBackgroundImageURI>
+          </LargeBackBackgroundImageURI>
+          <DeviceLockImageURI>
+          </DeviceLockImageURI>
+          <HasLarge>True</HasLarge>
+        </TemplateFlip>
+      </PrimaryToken>
+    </Tokens>
+    <ScreenResolutions>
+      <ScreenResolution Name="ID_RESOLUTION_WVGA" />
+      <ScreenResolution Name="ID_RESOLUTION_WXGA" />
+      <ScreenResolution Name="ID_RESOLUTION_HD720P" />
+    </ScreenResolutions>
+    <Requirements>
+      <Requirement Name="ID_REQ_NFC" />
+    </Requirements>
+  </App>
+</Deployment>
