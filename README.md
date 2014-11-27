@@ -6,7 +6,7 @@ demonstrates how to use the Proximity API to read NFC Data Exchange Format
 (NDEF) compliant tags.
 
 This example application is hosted in GitHub:
-https://github.com/nokia-developer/nfc-ndef-tag-reader
+https://github.com/Microsoft/nfc-ndef-tag-reader
 
 For more information on implementation and porting, visit Nokia Lumia
 Developer's Library:
@@ -59,7 +59,7 @@ Required capabilities:
 
 See the license text file delivered with this project. The license file is also
 available online at
-https://github.com/nokia-developer/nfc-ndef-tag-reader/blob/master/Licence.txt
+https://github.com/Microsoft/nfc-ndef-tag-reader/blob/master/Licence.txt
 
 
 4. Version history
