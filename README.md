@@ -1,14 +1,16 @@
 NFC NDEF Tag Reader
 ===================
 
-A simple NFC tag reader application for Windows Phone 8. This Nokia example app
+A simple NFC tag reader application for Windows Phone 8. This example app
 demonstrates how to use the Proximity API to read NFC Data Exchange Format
 (NDEF) compliant tags.
+
+![Screenshot](/doc/nfcndeftagreader-2.png?raw=true)
 
 This example application is hosted in GitHub:
 https://github.com/Microsoft/nfc-ndef-tag-reader
 
-For more information on implementation and porting, visit Nokia Lumia
+For more information on implementation and porting, visit Lumia
 Developer's Library:
 http://developer.nokia.com/Resources/Library/Lumia/#!code-examples/nfc-ndef-tag-reader.html
 
